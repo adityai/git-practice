@@ -138,6 +138,9 @@ git merge branch2
 
 // Edit the testFileAddedInBranch_1.txt 
 // Fix all the merge issues and push to master
+git add *
 git push -u origin master
+```
 
+### Pull request
 
