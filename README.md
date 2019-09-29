@@ -32,8 +32,8 @@ git add *
 // Commit with message
 git commit -m "Initial commit"
 
-// Add git remote repo
-git remote add origin https://github.com/adityai/git-tutorial.git
+// Add git remote repo after creating it from github ui
+git remote add origin https://github.com/<YOUR_PROJECT>/git-tutorial.git
 
 // Git push to master
 git push -u origin master
