@@ -88,7 +88,6 @@ git branch branch1
 
 // Switch to the new branch
 git checkout branch1
-git branch
 
 // Create a blank file to merge later with master
 touch testFileAddedInBranch_1.txt
@@ -120,7 +119,6 @@ echo "Adding text in branch2" > testFileAddedInBranch_1.txt
 git add *
 git commit -m "Adding text in testFileAddedInBranch_1.txt in branch2"
 git status
-git branch
 git push -u origin branch2
 
 // Add different text in the same file in the master
